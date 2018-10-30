@@ -1,0 +1,25 @@
+{
+	"name": "nodejs-project-structure",
+	"version": "1.0.0",
+	"scripts": {
+		"test": "eslint --ignore-path .gitignore .",
+		"start": "node ./bin/www"
+	},
+	"dependencies": {
+		"cookie-parser": "~1.4.3",
+		"dotenv": "^6.0.0",
+		"express": "~4.16.0",
+		"joi": "^13.4.0",
+		"morgan": "~1.9.0",
+		"pug": "^2.0.3",
+		"underscore": "^1.9.1",
+		"winston": "^3.0.0"
+	},
+	"devDependencies": {
+		"eslint": "^5.0.1",
+		"eslint-config-google": "^0.9.1"
+	},
+	"engines": {
+		"node": ">=10.5.0"
+	}
+}
